@@ -149,12 +149,12 @@ colorscheme gaia_dark
 
 ## Roadmap (help is much appreciated)
 
-[] Refine the code.
-[] Improve documentation.
-[] Improve templates where possible.
-[] Produce templates for other popular apps (Termite, Kitty, Tilix, etc.).
-[] Packages for various GNU/Linux distros (if packages are an option, there needs to be a manpage and a more streamlined CLI experience, such as `prot16 --help` `prot16 [options]`).
-[] Anything else?
+- Refine the code.
+- Improve documentation.
+- Improve templates where possible.
+- Produce templates for other popular apps (Termite, Kitty, Tilix, etc.).
+- Packages for various GNU/Linux distros (if packages are an option, there needs to be a manpage and a more streamlined CLI experience, such as `prot16 --help` `prot16 [options]`).
+- Anything else?
 
 ## Changelog
 
@@ -165,3 +165,7 @@ Refer to the [CHANGELOG.md](https://github.com/protesilaos/prot16-generator/blob
 GNU General Public License Version 3. 
 
 See [LICENSE](https://github.com/protesilaos/prot16-generator/blob/master/LICENSE)
+
+## Miscellaneous
+
+The Prot16 Generator replaces the [prot16-builder](https://github.com/protesilaos/prot16-builder)
