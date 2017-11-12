@@ -1,0 +1,22 @@
+! Colour scheme: $scheme ($variant variant)
+! By Protesilaos Stavrou
+! https://protesilaos.com/$scheme
+xterm*background: #${lbg}
+xterm*foreground: #${lt1}
+xterm*cursorColor: #${lt1}
+xterm*color0: #${dbg}
+xterm*color1: #${red}
+xterm*color2: #${gre}
+xterm*color3: #${yel}
+xterm*color4: #${blu}
+xterm*color5: #${mag}
+xterm*color6: #${cya}
+xterm*color7: #${lhl}
+xterm*color8: #${dhl}
+xterm*color9: #${ora}
+xterm*color10: #${lt1}
+xterm*color11: #${dt2}
+xterm*color12: #${lt2}
+xterm*color13: #${vio}
+xterm*color14: #${dt1}
+xterm*color15: #${lbg}
