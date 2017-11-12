@@ -1,4 +1,4 @@
-! Colour scheme: $scheme
+! Colour scheme: $scheme ($variant variant)
 ! By Protesilaos Stavrou
 ! https://protesilaos.com/$scheme
 URxvt*background: #${lbg}
