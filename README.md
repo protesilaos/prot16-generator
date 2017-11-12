@@ -80,6 +80,14 @@ Then source that file from within the `.Xresources` with the following line (not
 
 Whatever method you use, do not forget to reload the configurations, with `xrdb -merge ~/.Xresources` (may need to close all terminals and re-open them).
 
+### Xterm
+
+Much like urxvt, xterm stores its configurations in `~/.Xresources`. Append the theme of your choice to the existing configs with the following:
+
+```sh
+./prot16-generator gaia xterm dark >> ~./Xresources
+```
+
 ### Xfce4-terminal
 
 The theme files can be located in either of two places:
