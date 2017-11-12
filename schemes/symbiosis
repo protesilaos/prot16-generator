@@ -1,0 +1,63 @@
+# scheme: Symbiosis
+# author: Protesilaos Stavrou (https://protesilaos.com/symbiosis)
+
+# Colour values
+dbg=111d1c # Dark background
+dhl=212d2c # Dark highlight
+dt2=58623b # Dark bg text secondary
+dt1=79988b # Dark bg text primary
+lbg=fcfaf9 # Light background
+lhl=eceae9 # Light highlight
+lt2=828cad # Light bg text secondary
+lt1=3c513d # Light bg text primary
+red=b95846 # Red
+ora=a87226 # Orange
+yel=a89641 # Yellow
+gre=669824 # Green
+cya=28a597 # Cyan
+blu=3d8cad # Blue
+vio=9166ab # Violet
+mag=bb7eaa # Magenta
+
+# Visual order used for colour mapping
+p1=$vio # Violet
+p2=$red # Red
+p3=$cya # Cyan
+s1=$blu # Blue
+s2=$ora # Orange
+t1=$gre # Green
+t2=$yel # Yellow
+t3=$mag # Magenta
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=13
+cp2=1
+cp3=6
+cs1=4
+cs2=9
+ct1=2
+ct2=3
+ct3=5
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

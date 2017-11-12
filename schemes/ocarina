@@ -1,0 +1,63 @@
+# scheme: Ocarina
+# author: Protesilaos Stavrou (https://protesilaos.com/ocarina)
+
+# Colour values
+dbg=212c2d # Dark background
+dhl=313c3d # Dark highlight
+dt2=716c4d # Dark bg text secondary
+dt1=88a99b # Dark bg text primary
+lbg=ebebe7 # Light background
+lhl=dbdbd7 # Light highlight
+lt2=7a9297 # Light bg text secondary
+lt1=556d5c # Light bg text primary
+red=ba6f5b # Red
+ora=a2853a # Orange
+yel=93a34a # Yellow
+gre=3d9954 # Green
+cya=38a997 # Cyan
+blu=2a92a5 # Blue
+vio=7a84ba # Violet
+mag=a77b9b # Magenta
+
+# Visual order used for colour mapping
+p1=$gre # Green
+p2=$cya # Cyan
+p3=$ora # Orange
+s1=$yel # Yellow
+s2=$vio # Violet
+t1=$blu # Blue
+t2=$red # Red
+t3=$mag # Magenta
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=2
+cp2=6
+cp3=9
+cs1=3
+cs2=13
+ct1=4
+ct2=1
+ct3=5
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

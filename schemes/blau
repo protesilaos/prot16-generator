@@ -1,0 +1,63 @@
+# scheme: "Blau"
+# author: "Protesilaos Stavrou (https://protesilaos.com/blau)"
+
+# Colour values
+dbg=28282f # Dark background
+dhl=38383f # Dark highlight
+dt2=68686f # Dark bg text secondary
+dt1=98989f # Dark bg text primary
+lbg=dfdcde # Light background
+lhl=cfccce # Light highlight
+lt2=7f7c7e # Light bg text secondary
+lt1=4f4c4e # Light bg text primary
+red=a43d56 # Red
+ora=bb651b # Orange
+yel=bb8b11 # Yellow
+gre=3ba67a # Green
+cya=2f95a5 # Cyan
+blu=2f7cb1 # Blue
+vio=5e6fb5 # Violet
+mag=a5657a # Magenta
+
+# Visual order used for colour mapping
+p1=$red # Red
+p2=$vio # Violet
+p3=$blu # Blue
+s1=$cya # Cyan
+s2=$mag # Magenta
+t1=$yel # Yellow
+t2=$gre # Green
+t3=$ora # Orange
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=1
+cp2=13
+cp3=4
+cs1=6
+cs2=5
+ct1=3
+ct2=2
+ct3=9
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

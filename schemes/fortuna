@@ -1,0 +1,63 @@
+# scheme: Fortuna
+# author: Protesilaos Stavrou (https://protesilaos.com/fortuna)
+
+# Colour values
+dbg=453731 # Dark background
+dhl=554741 # Dark highlight
+dt2=837858 # Dark bg text secondary
+dt1=98b4ac # Dark bg text primary
+lbg=f2f1ef # Light background
+lhl=e2e1df # Light highlight
+lt2=78849c # Light bg text secondary
+lt1=5d6348 # Light bg text primary
+red=da5447 # Red
+ora=dc7926 # Orange
+yel=db9d0b # Yellow
+gre=78ad28 # Green
+cya=16adac # Cyan
+blu=3894cd # Blue
+vio=aa8bee # Violet
+mag=dc6788 # Magenta
+
+# Visual order used for colour mapping
+p1=$ora # Orange
+p2=$yel # Yellow
+p3=$cya # Cyan
+s1=$gre # Green
+s2=$blu # Blue
+t1=$vio # Violet
+t2=$mag # Magenta
+t3=$red # Red
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=9
+cp2=3
+cp3=6
+cs1=2
+cs2=4
+ct1=13
+ct2=5
+ct3=1
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

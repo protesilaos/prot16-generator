@@ -1,0 +1,10 @@
+[Scheme]
+Name=$scheme dark
+ColorForeground=#${dt1}
+ColorBackground=#${dbg}
+ColorCursor=#${dt1}
+ColorBold=#${dt1}
+ColorPalette=#${dbg};#${red};#${gre};#${yel};#${blu};#${mag};#${cya};#${lhl};#${dhl};#${ora};#${lt1};#${dt2};#${lt2};#${vio};#${dt1};#${lbg}
+TabActivityColor=#${gre}
+ColorSelectionBackground=#${dhl}
+ColorSelection=#${dt1}

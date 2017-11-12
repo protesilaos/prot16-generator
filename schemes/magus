@@ -1,0 +1,63 @@
+# scheme: Magus
+# author: Protesilaos Stavrou (https://protesilaos.com/magus)
+
+# Colour values
+dbg=322a29 # Dark background
+dhl=423a39 # Dark highlight
+dt2=726a69 # Dark bg text secondary
+dt1=a29a99 # Dark bg text primary
+lbg=f2ede6 # Light background
+lhl=e2ddd6 # Light highlight
+lt2=a29d96 # Light bg text secondary
+lt1=625d56 # Light bg text primary
+red=bd5956 # Red
+ora=bb7321 # Orange
+yel=c1a222 # Yellow
+gre=8b972a # Green
+cya=65ab85 # Cyan
+blu=5c8caa # Blue
+vio=7a7da7 # Violet
+mag=b881a8 # Magenta
+
+# Visual order used for colour mapping
+p1=$ora # Orange
+p2=$red # Red
+p3=$gre # Green
+s1=$cya # Cyan
+s2=$yel # Yellow
+t1=$vio # Violet
+t2=$blu # Blue
+t3=$mag # Magenta
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=9
+cp2=1
+cp3=2
+cs1=6
+cs2=3
+ct1=13
+ct2=4
+ct3=5
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

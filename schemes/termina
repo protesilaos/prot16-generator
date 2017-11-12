@@ -1,0 +1,63 @@
+# scheme: Termina
+# author: Protesilaos Stavrou (https://protesilaos.com/termina)
+
+# Colour values
+dbg=2a2235 # Dark background
+dhl=3a3245 # Dark highlight
+dt2=7a7b65 # Dark bg text secondary
+dt1=7a929a # Dark bg text primary
+lbg=f0f1ef # Light background
+lhl=e0e1df # Light highlight
+lt2=7e96a8 # Light bg text secondary
+lt1=53623e # Light bg text primary
+red=a24e37 # Red
+ora=9d7a47 # Orange
+yel=94960d # Yellow
+gre=749234 # Green
+cya=529298 # Cyan
+blu=5a7ca8 # Blue
+vio=8a6fa2 # Violet
+mag=a3636d # Magenta
+
+# Visual order used for colour mapping
+p1=$gre # Green
+p2=$vio # Violet
+p3=$ora # Orange
+s1=$cya # Cyan
+s2=$blu # Blue
+t1=$mag # Magenta
+t2=$yel # Yellow
+t3=$red # Red
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=2
+cp2=13
+cp3=9
+cs1=6
+cs2=4
+ct1=5
+ct2=3
+ct3=1
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

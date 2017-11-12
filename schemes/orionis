@@ -1,0 +1,63 @@
+# scheme: Orionis
+# author: Protesilaos Stavrou (https://protesilaos.com/orionis)
+
+# Colour values
+dbg=1f2a2d # Dark background
+dhl=2f3a3d # Dark highlight
+dt2=5f6a6d # Dark bg text secondary
+dt1=8f9a9d # Dark bg text primary
+lbg=eff1f3 # Light background
+lhl=dfe1e3 # Light highlight
+lt2=8f9193 # Light bg text secondary
+lt1=5f6163 # Light bg text primary
+red=974f6c # Red
+ora=9d7427 # Orange
+yel=9a8f0c # Yellow
+gre=5b935b # Green
+cya=52a6ad # Cyan
+blu=4d8ab3 # Blue
+vio=7e7ead # Violet
+mag=ad6e8f # Magenta
+
+# Visual order used for colour mapping
+p1=$mag # Magenta
+p2=$vio # Violet
+p3=$blu # Blue
+s1=$cya # Cyan
+s2=$gre # Green
+t1=$red # Red
+t2=$ora # Orange
+t3=$yel # Yellow
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=5
+cp2=13
+cp3=4
+cs1=6
+cs2=2
+ct1=1
+ct2=9
+ct3=3
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

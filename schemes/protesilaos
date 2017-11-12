@@ -1,0 +1,67 @@
+# NOTE this is the default colour scheme for protesilaos.com
+# NOTE the palette has not been thoroughly tested
+# NOTE every aspect of it, including its name, is subject to change
+# 
+# scheme: Protesilaos
+# author: Protesilaos Stavrou (https://protesilaos.com/)
+
+# Colour values
+dbg=07040a # dark background
+dhl=221a25 # dark highlight
+dt2=898460 # dark bg text secondary
+dt1=9eb0b5 # dark bg text primary
+lbg=fbfbfb # light background
+lhl=e9e9e9 # light highlight
+lt2=5b7d8b # light bg text secondary
+lt1=504839 # light bg text primary
+red=e52530 # red
+ora=c65304 # orange
+yel=897600 # yellow
+gre=058942 # green
+cya=108294 # cyan
+blu=1f7ac4 # blue
+vio=8764c4 # violet
+mag=b25599 # magenta
+
+# Visual order used for colour mapping
+p1=$gre # Green
+p2=$blu # Blue
+p3=$cya # Cyan
+s1=$mag # Magenta
+s2=$vio # Violet
+t1=$yel # Yellow
+t2=$ora # Orange
+t3=$red # Red
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=2
+cp2=4
+cp3=6
+cs1=5
+cs2=13
+ct1=3
+ct2=9
+ct3=1
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

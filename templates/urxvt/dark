@@ -1,0 +1,21 @@
+! Colour scheme $scheme
+! https://protesilaos.com/$scheme
+URxvt*background: #${dbg}
+URxvt*foreground: #${dt1}
+URxvt*cursorColor: #${dt1}
+URxvt*color0: #${dbg}
+URxvt*color1: #${red}
+URxvt*color2: #${gre}
+URxvt*color3: #${yel}
+URxvt*color4: #${blu}
+URxvt*color5: #${mag}
+URxvt*color6: #${cya}
+URxvt*color7: #${lhl}
+URxvt*color8: #${dhl}
+URxvt*color9: #${ora}
+URxvt*color10: #${lt1}
+URxvt*color11: #${dt2}
+URxvt*color12: #${lt2}
+URxvt*color13: #${vio}
+URxvt*color14: #${dt1}
+URxvt*color15: #${lbg}

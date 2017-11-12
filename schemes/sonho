@@ -1,0 +1,63 @@
+# scheme: Sonho
+# author: Protesilaos Stavrou (https://protesilaos.com/sonho)
+
+# Colour values
+dbg=4a3638 # Dark background
+dhl=5a4648 # Dark highlight
+dt2=8a7668 # Dark bg text secondary
+dt1=99aabc # Dark bg text primary
+lbg=fff0f2 # Light background
+lhl=efe0e2 # Light highlight
+lt2=8896bb # Light bg text secondary
+lt1=677468 # Light bg text primary
+red=cd4679 # Red
+ora=d9766d # Orange
+gre=11bf8c # Green
+blu=479cb5 # Blue
+mag=dd619f # Magenta
+yel=d9a652 # Yellow
+cya=38A8b9 # Cyan
+vio=a77ccf # Violet
+
+# Visual order used for colour mapping
+p1=$mag # Magenta
+p2=$cya # Cyan
+p3=$yel # Yellow
+s1=$ora # Orange
+s2=$vio # Violet
+t1=$blu # Blue
+t2=$gre # Green
+t3=$red # Red
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=5
+cp2=6
+cp3=3
+cs1=9
+cs2=13
+ct1=4
+ct2=2
+ct3=1
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

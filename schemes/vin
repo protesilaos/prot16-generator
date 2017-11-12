@@ -1,0 +1,63 @@
+# scheme: Vin
+# author: Protesilaos Stavrou (https://protesilaos.com/vin)
+
+# Colour values
+dbg=181a28 # Dark background
+dhl=282a38 # Dark highlight
+dt2=626442 # Dark bg text secondary
+dt1=6d8476 # Dark bg text primary
+lbg=f0f2ea # Light background
+lhl=e0e2da # Light highlight
+lt2=727584 # Light bg text secondary
+lt1=3f4d24 # Light bg text primary
+red=a3415c # Red
+ora=8d522d # Orange
+yel=7d851d # Yellow
+gre=487d14 # Green
+cya=13865a # Cyan
+blu=5a5da8 # Blue
+vio=8858a5 # Violet
+mag=ac587a # Magenta
+
+# Visual order used for colour mapping
+p1=$gre # Green
+p2=$vio # Violet
+p3=$red # Red
+s1=$mag # Magenta
+s2=$cya # Cyan
+t1=$blu # Blue
+t2=$ora # Orange
+t3=$yel # Yellow
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=4
+cp2=13
+cp3=1
+cs1=5
+cs2=6
+ct1=4
+ct2=9
+ct3=3
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

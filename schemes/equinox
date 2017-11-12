@@ -1,0 +1,63 @@
+# scheme: Equinox
+# author: Protesilaos Stavrou (https://protesilaos.com/equinox)
+
+# Colour values
+dbg=1d192a # Dark background
+dhl=2d293a # Dark highlight
+dt2=6d7444 # Dark bg text secondary
+dt1=7e9ca8 # Dark bg text primary
+lbg=f4f6fe # Light background
+lhl=e4e6ee # Light highlight
+lt2=67839c # Light bg text secondary
+lt1=3c554d # Light bg text primary
+red=c44a64 # Red
+ora=a96a4b # Orange
+yel=8d9928 # Yellow
+gre=138e6c # Green
+cya=26a4a9 # Cyan
+blu=536cb2 # Blue
+vio=8955ba # Violet
+mag=cc5d9a # Magenta
+
+# Visual order used for colour mapping
+p1=$blu # Blue
+p2=$vio # Violet
+p3=$gre # Green
+s1=$cya # Cyan
+s2=$mag # Magenta
+t1=$ora # Orange
+t2=$yel # Yellow
+t3=$red # Red
+
+# Terminal values follow this sequence
+# 0=dhl; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dbg; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=4
+cp2=13
+cp3=2
+cs1=6
+cs2=5
+ct1=9
+ct2=3
+ct3=1
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

@@ -1,0 +1,119 @@
+" Name: $scheme light
+" Author: Protesilaos Stavrou <public@protesilaos.com>
+" URL: https://protesilaos.com/$scheme
+" Version: 0.2.0.beta-20170514
+
+set background=light
+hi clear
+if exists("syntax_on")
+  syntax reset
+endif
+let g:colors_name = "$scheme_light"
+
+" General
+" -----------------
+hi Normal guibg=#${lbg} guifg=#${lt1} ctermbg=none ctermfg=$clt1
+hi Visual guibg=#${dhl} guifg=#${dt1} ctermbg=$cdhl ctermfg=$cdt1
+hi Search guibg=#${cya} guifg=#${lbg} ctermbg=$ccya ctermfg=$clbg
+
+hi StatusLine gui=none,bold guibg=#${lhl} guifg=#${lt1} cterm=none,bold ctermbg=$clhl ctermfg=$clt1
+hi StatusLineNC gui=none guibg=#${lhl} guifg=#${dt1} cterm=none ctermbg=$clhl ctermfg=$cdt1
+hi VertSplit gui=none cterm=none
+hi TabLine gui=none guibg=#${lhl} guifg=#${lt2} cterm=none ctermbg=$clhl ctermfg=$clt2
+hi TabLineSel gui=none guibg=#${blu} guifg=#${lbg} cterm=none ctermbg=$cblu ctermfg=$clbg
+hi TabLineFill gui=none cterm=none
+
+hi Comment gui=italic guifg=#${dt2} cterm=italic ctermfg=$cdt2
+hi Comment gui=italic guifg=#${lt2} cterm=italic ctermfg=$clt2
+hi Todo gui=none guibg=#${lhl} guifg=#$t1 cterm=none ctermbg=$clhl ctermfg=$ct1
+
+hi Warning gui=none guibg=#${yel} guifg=#${dbg} cterm=none ctermbg=$cyel ctermfg=$cdbg
+hi Error gui=none guibg=#${red} guifg=#${dbg} cterm=none ctermbg=$cred ctermfg=$cdbg
+
+hi MatchParen guibg=#${cya} guifg=#${lbg} ctermbg=$ccya ctermfg=$clbg
+
+" Constructs
+" -----------------
+hi Constant guifg=#$p1 ctermfg=$cp1
+hi Number guifg=#$p3 ctermfg=$cp3
+hi Boolean guifg=#$t1 ctermfg=$ct1
+hi Float guifg=#${lt1} ctermfg=$clt1
+hi Label guifg=#${lt1} ctermfg=$clt1
+hi Tag guifg=#${lt1} ctermfg=$clt1
+hi StorageClass guifg=#${lt1} ctermfg=$clt1
+
+hi String guifg=#$s1 ctermfg=$cs1
+hi Character guifg=#$s2 ctermfg=$cs2
+
+hi Identifier gui=none guifg=#$p2 cterm=none ctermfg=$cp2
+hi Function guifg=#$p2 ctermfg=$cp2
+hi Keyword guifg=#$p2 ctermfg=$cp2
+hi Statement guifg=#$p1 ctermfg=$cp1
+hi Conditional guifg=#$p2 ctermfg=$cp2
+hi Repeat guifg=#$t2 ctermfg=$ct2
+hi Operator guifg=#$s2 ctermfg=$cs2
+hi Keyword guifg=#$p2 ctermfg=$cp2
+hi Exception guifg=#$t3 ctermfg=$ct3
+
+hi Preproc guifg=#$p1 ctermfg=$cp1
+hi Include guifg=#$p2 ctermfg=$cp2
+hi Define guifg=#$p3 ctermfg=$cp3
+hi Macro guifg=#$p3 ctermfg=$cp3
+hi PreCondit guifg=#$p2 ctermfg=$cp2
+
+hi Title guifg=#${lt1} ctermfg=$clt1
+hi Type guifg=#$p2 ctermfg=$cp2
+hi StorageClass guifg=#$p2 ctermfg=$cp2
+hi Structure guifg=#$p1 ctermfg=$cp1
+hi Typedef guifg=#$p3 ctermfg=$cp3
+
+hi Special guifg=#$s2 ctermfg=$cs2
+hi SpecialChar guifg=#$t1 ctermfg=$ct1
+hi Tag guifg=#$p2 ctermfg=$cp2
+hi Delimeter guifg=#${lt1} ctermfg=$clt1
+hi SpecialComment gui=none guifg=#$t2 cterm=none ctermfg=$ct2
+hi Debug guifg=#$t3
+
+" Other
+" -----------------
+hi LineNr guifg=#${lt2} ctermfg=$clt2
+hi Cursor guifg=#${lt1} ctermfg=$clt1
+hi CursorLine gui=none guibg=#${lhl} cterm=none ctermbg=$clhl
+hi CursorLineNr gui=none guibg=#${lhl} guifg=#${dt2} cterm=none ctermbg=$clhl ctermfg=$cdt2
+hi ColorColumn guibg=#${lt2} ctermbg=$clt2
+
+hi Folded guibg=#${lhl} guifg=#${dbg} ctermbg=$clhl ctermfg=$cdbg
+hi FoldColumn guibg=#${lhl} guifg=#${dbg} ctermbg=$clhl ctermfg=$cdbg
+
+hi NonText guifg=#${lt2} ctermfg=$clt2
+hi SpecialKey guifg=#${lt2} ctermfg=$clt2
+
+hi Directory guifg=#$p1 ctermfg=$cp1
+hi SpecialKey guifg=#$t1 ctermfg=$ct1
+hi MoreMsg guifg=#${lt2} ctermfg=$clt2
+hi Question gui=none guifg=#$t3 cterm=none ctermfg=$ct3
+hi VimOption guifg=#$p3 ctermfg=$cp3
+hi VimGroup guifg=#$p1 ctermfg=$cp1
+hi Underlined guifg=#$s1 ctermfg=$cs1
+hi Ignore guifg=#$t2 ctermfg=$ct1
+
+hi SpellBad guibg=#${red} guifg=#${lbg} ctermbg=$cred ctermfg=$clbg
+hi SpellCap guibg=#${lhl} guifg=#${dbg} ctermbg=$clhl ctermfg=$cdbg
+hi SpellRare guibg=#${vio} guifg=#${lbg} ctermbg=$cvio ctermfg=$clbg
+hi SpellLocal guibg=#${cya} guifg=#${lbg} ctermbg=$ccya ctermfg=$clbg
+
+hi Pmenu guibg=#${lhl} guifg=#${dbg} ctermbg=$clhl ctermfg=$cdbg
+hi PmenuSel guibg=#${yel} guifg=#${lbg} ctermbg=$cyel ctermfg=$clbg
+hi PmenuSbar guibg=#${lt2} ctermbg=$clt2
+
+" Diffs
+" -----------------
+hi DiffAdd guibg=#${gre} guifg=#${dbg} ctermbg=$cgre ctermfg=$cdbg
+hi DiffDelete gui=none guibg=#${red} guifg=#${dbg} ctermbg=$cred cterm=none ctermfg=$cdbg
+hi DiffChange guibg=#${ora} guifg=#${dbg} ctermbg=$cora ctermfg=$cdbg
+hi DiffText gui=none guibg=#${mag} guifg=#${dbg} cterm=none ctermbg=$cmag ctermfg=$cdbg
+
+hi diffAdded guifg=#${gre} ctermfg=$cgre
+hi diffRemoved guifg=#${red} ctermfg=$cred
+hi diffNewFile gui=none guifg=#${blu} ctermfg=$cblu
+hi diffFile gui=none guifg=#${yel} cterm=none ctermfg=$cyel

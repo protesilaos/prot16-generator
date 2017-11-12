@@ -1,0 +1,63 @@
+# scheme: Oliveira
+# author: Protesilaos Stavrou (https://protesilaos.com/oliveira)
+
+# Colour values
+dbg=252922 # Dark background
+dhl=353932 # Dark highlight
+dt2=757972 # Dark bg text secondary
+dt1=959992 # Dark bg text primary
+lbg=f1f3eb # Light background
+lhl=e1e3db # Light highlight
+lt2=91938b # Light bg text secondary
+lt1=51534b # Light bg text primary
+red=a64e3c # Red
+ora=a35c35 # Orange
+yel=a59520 # Yellow
+gre=5ca15a # Green
+cya=5caa9a # Cyan
+blu=4a8dac # Blue
+vio=7c85b7 # Violet
+mag=a95f85 # Magenta
+
+# Visual order used for colour mapping
+p1=$gre # Green
+p2=$vio # Violet
+p3=$blu # Blue
+s1=$cya # Cyan
+s2=$mag # Magenta
+t1=$ora # Orange
+t2=$yel # Yellow
+t3=$red # Red
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=2
+cp2=13
+cp3=4
+cs1=6
+cs2=5
+ct1=9
+ct2=3
+ct3=1
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

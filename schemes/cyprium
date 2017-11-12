@@ -1,0 +1,63 @@
+# scheme: Cyprium
+# author: Protesilaos Stavrou (https://protesilaos.com/cyprium)
+
+# Colour values
+dbg=374934 # Dark background
+dhl=475944 # Dark highlight
+dt2=879464 # Dark bg text secondary
+dt1=82a394 # Dark bg text primary
+lbg=ebe9da # Light background
+lhl=dbd9ca # Light highlight
+lt2=9299aa # Light bg text secondary
+lt1=6e7b54 # Light bg text primary
+red=b86a5c # Red
+ora=b37521 # Orange
+yel=a38e10 # Yellow
+gre=669252 # Green
+cya=4c9b94 # Cyan
+blu=5c8c9e # Blue
+vio=8B85ac # Violet
+mag=bc7374 # Magenta
+
+# Visual order used for colour mapping
+p1=$yel # Yellow
+p2=$ora # Orange
+p3=$gre # Green
+s1=$cya # Cyan
+s2=$blu # Blue
+t1=$red # Red
+t2=$vio # Violet
+t3=$mag # Magenta
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=3
+cp2=9
+cp3=2
+cs1=6
+cs2=4
+ct1=1
+ct2=13
+ct3=5
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

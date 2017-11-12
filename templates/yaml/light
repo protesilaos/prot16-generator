@@ -1,0 +1,19 @@
+scheme: "$scheme"
+url: "https://protesilaos.com/$scheme"
+author: "Protesilaos Stavrou <public@protesilaos.com>"
+dbg: "$dbg" # Dark background
+dhl: "$dhl" # Dark highlight
+dt2: "$dt2" # Dark bg text secondary
+dt1: "$dt1" # Dark bg text primary
+lbg: "$lbg" # Light background
+lhl: "$lhl" # Light highlight
+lt2: "$lt2" # Light bg text secondary
+lt1: "$lt1" # Light bg text primary
+red: "$red" # Red
+ora: "$ora" # Orange
+yel: "$yel" # Yellow
+gre: "$gre" # Green
+cya: "$cya" # Cyan
+blu: "$blu" # Blue
+vio: "$vio" # Violet
+mag: "$mag" # Magenta

@@ -1,0 +1,63 @@
+# scheme: Overgrowth
+# author: Protesilaos Stavrou (https://protesilaos.com/overgrowth)
+
+# Colour values
+dbg=233f34 # Dark background
+dhl=334f44 # Dark highlight
+dt2=637f74 # Dark bg text secondary
+dt1=93afa4 # Dark bg text primary
+lbg=e6e5d2 # Light background
+lhl=d6d5c2 # Light highlight
+lt2=a6a592 # Light bg text secondary
+lt1=767562 # Light bg text primary
+red=ca6a4a # Red
+ora=bb7628 # Orange
+yel=a8950d # Yellow
+gre=4ba212 # Green
+cya=15b59b # Cyan
+blu=359fca # Blue
+vio=8a6ebb # Violet
+mag=bb6e8a # Magenta
+
+# Visual order used for colour mapping
+p1=$gre # Green
+p2=$ora # Orange
+p3=$red # Red
+s1=$yel # Yellow
+s2=$mag # Magenta
+t1=$blu # Blue
+t2=$vio # Violet
+t3=$cya # Cyan
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=4
+cp2=9
+cp3=1
+cs1=3
+cs2=5
+ct1=4
+ct2=13
+ct3=6
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

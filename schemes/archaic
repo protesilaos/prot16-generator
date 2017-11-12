@@ -1,0 +1,63 @@
+# scheme: Archaic
+# author: Protesilaos Stavrou (https://protesilaos.com/archaic)
+
+# Colour values
+dbg=2e2926 # Dark background
+dhl=3e3936 # Dark highlight
+dt2=7e7976 # Dark bg text secondary
+dt1=aea9a6 # Dark bg text primary
+lbg=fef1d8 # Light background
+lhl=eee1c8 # Light highlight
+lt2=9e9178 # Light bg text secondary
+lt1=5e5138 # Light bg text primary
+red=ab5637 # Red
+ora=c76d26 # Orange
+yel=a97906 # Yellow
+gre=688a38 # Green
+cya=368876 # Cyan
+blu=4884ad # Blue
+vio=8a6bb5 # Violet
+mag=a25763 # Magenta
+
+# Visual order used for colour mapping
+p1=$red # Red
+p2=$yel # Yellow
+p3=$ora # Orange
+s1=$gre # Green
+s2=$mag # Magenta
+t1=$vio # Violet
+t2=$cya # Cyan
+t3=$blu # Blue
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=1
+cp2=3
+cp3=9
+cs1=2
+cs2=5
+ct1=13
+ct2=6
+ct3=4
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

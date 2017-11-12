@@ -1,0 +1,63 @@
+# scheme: Seabed
+# author: Protesilaos Stavrou (https://protesilaos.com/seabed)
+
+# Colour values
+dbg=060d18 # Dark background
+dhl=161d28 # Dark highlight
+dt2=666d78 # Dark bg text secondary
+dt1=969da8 # Dark bg text primary
+lbg=162d38 # Light background
+lhl=263d48 # Light highlight
+lt2=667d88 # Light bg text secondary
+lt1=96adb8 # Light bg text primary
+red=78456b # Red
+ora=6a867a # Orange
+yel=6a865a # Yellow
+gre=2d886c # Green
+cya=35838c # Cyan
+blu=3a6a8d # Blue
+vio=4d5b94 # Violet
+mag=846b85 # Magenta
+
+# Visual order used for colour mapping
+p1=$blu # Blue
+p2=$vio # Violet
+p3=$mag # Magenta
+s1=$gre # Green
+s2=$cya # Cyan
+t1=$yel # Yellow
+t2=$red # Red
+t3=$ora # Orange
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=4
+cp2=13
+cp3=5
+cs1=2
+cs2=6
+ct1=3
+ct2=1
+ct3=9
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

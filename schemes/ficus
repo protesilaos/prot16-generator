@@ -1,0 +1,63 @@
+# scheme: Ficus
+# author: Protesilaos Stavrou (https://protesilaos.com/ficus)
+
+# Colour values
+dbg=27152c # Dark background
+dhl=37253c # Dark highlight
+dt2=747145 # Dark bg text secondary
+dt1=87a5a7 # Dark bg text primary
+lbg=edf1e5 # Light background
+lhl=dde1d5 # Light highlight
+lt2=778ca7 # Light bg text secondary
+lt1=667155 # Light bg text primary
+red=c84954 # Red
+ora=bd7e20 # Orange
+yel=a9a60a # Yellow
+gre=84a33c # Green
+cya=3caaa9 # Cyan
+blu=6d75cd # Blue
+vio=a46acd # Violet
+mag=cb5e9a # Magenta
+
+# Visual order used for colour mapping
+p1=$mag # Magenta
+p2=$vio # Violet
+p3=$gre # Green
+s1=$yel # Yellow
+s2=$cya # Cyan
+t1=$blu # Blue
+t2=$red # Red
+t3=$ora # Orange
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=5
+cp2=13
+cp3=2
+cs1=3
+cs2=6
+ct1=4
+ct2=1
+ct3=9
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

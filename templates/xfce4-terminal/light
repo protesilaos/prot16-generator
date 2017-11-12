@@ -1,0 +1,10 @@
+[Scheme]
+Name=$scheme light
+ColorForeground=#${lt1}
+ColorBackground=#${lbg}
+ColorCursor=#${lt1}
+ColorBold=#${lt1}
+ColorPalette=#${dbg};#${red};#${gre};#${yel};#${blu};#${mag};#${cya};#${lhl};#${dhl};#${ora};#${lt1};#${dt2};#${lt2};#${vio};#${dt1};#${lbg}
+TabActivityColor=#${gre}
+ColorSelectionBackground=#${lhl}
+ColorSelection=#${lt1}

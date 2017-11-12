@@ -1,0 +1,63 @@
+# scheme: Playa
+# author: Protesilaos Stavrou (https://protesilaos.com/playa)
+
+# Colour values
+dbg=234154 # Dark background
+dhl=335f64 # Dark highlight
+dt2=868265 # Dark bg text secondary
+dt1=93b9b4 # Dark bg text primary
+lbg=faf1e0 # Light background
+lhl=eae1d0 # Light highlight
+lt2=7c949d # Light bg text secondary
+lt1=5a7160 # Light bg text primary
+red=ca6e6a # Red
+ora=cb8d6a # Orange
+yel=ccb45d # Yellow
+gre=7db97a # Green
+cya=4dc4b7 # Cyan
+blu=65afcd # Blue
+vio=aa85cb # Violet
+mag=cb7e9a # Magenta
+
+# Visual order used for colour mapping
+p1=$blu # Blue
+p2=$gre # Green
+p3=$cya # Cyan
+s1=$ora # Orange
+s2=$yel # Yellow
+t1=$red # Red
+t2=$vio # Violet
+t3=$mag # Magenta
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=4
+cp2=2
+cp3=6
+cs1=9
+cs2=3
+ct1=1
+ct2=13
+ct3=5
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

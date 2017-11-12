@@ -1,0 +1,63 @@
+# scheme: Camo
+# author: Protesilaos Stavrou (https://protesilaos.com/camo)
+
+# Colour values
+dbg=22372B # Dark background
+dhl=32473B # Dark highlight
+dt2=887d5c # Dark bg text secondary
+dt1=91a3a4 # Dark bg text primary
+lbg=e9eeeb # Light background
+lhl=d9dedb # Light highlight
+lt2=7695a8 # Light bg text secondary
+lt1=5a644e # Light bg text primary
+red=bd720d # Red
+ora=bd8c2b # Orange
+yel=baa60b # Yellow
+gre=589424 # Green
+cya=31a2ab # Cyan
+blu=528abd # Blue
+vio=8b7cba # Violet
+mag=b2749a # Magenta
+
+# Visual order used for colour mapping
+p1=$gre # Green
+p2=$red # Red
+p3=$ora # Orange
+s1=$mag # Magenta
+s2=$vio # Violet
+t1=$blu # Blue
+t2=$cya # Cyan
+t3=$yel # Yellow
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=2
+cp2=1
+cp3=9
+cs1=5
+cs2=13
+ct1=4
+ct2=6
+ct3=3
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5

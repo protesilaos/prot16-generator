@@ -1,0 +1,63 @@
+# scheme: Hinterland
+# author: Protesilaos Stavrou (https://protesilaos.com/hinterland)
+
+# Colour values
+dbg=12171B # Dark background
+dhl=22272B # Dark highlight
+dt2=60604f # Dark bg text secondary
+dt1=8aa0a4 # Dark bg text primary
+lbg=f9f8fc # Light background
+lhl=e9e8ec # Light highlight
+lt2=768592 # Light bg text secondary
+lt1=3d463f # Light bg text primary
+red=983f16 # Red
+ora=9e6c3d # Orange
+yel=b09020 # Yellow
+gre=3D814C # Green
+cya=01917b # Cyan
+blu=217ab3 # Blue
+vio=7d6cab # Violet
+mag=ad5c5b # Magenta
+
+# Visual order used for colour mapping
+p1=$gre # Green
+p2=$cya # Cyan
+p3=$ora # Orange
+s1=$vio # Violet
+s2=$yel # Yellow
+t1=$mag # Magenta
+t2=$blu # Blue
+t3=$red # Red
+
+# Terminal values follow this sequence
+# 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
+# 8=dhl; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
+
+# Terminal accent colours corresponding to the visual order
+cp1=2
+cp2=6
+cp3=9
+cs1=13
+cs2=3
+ct1=5
+ct2=4
+ct3=1
+
+# Terminal codes for colour values
+# This presupposes that the terminal sequence is followed
+cdbg=0
+cdhl=8
+cdt2=11
+cdt1=14
+clbg=15
+clhl=7
+clt2=12
+clt1=10
+cred=1
+cora=9
+cyel=3
+cgre=2
+ccya=6
+cblu=4
+cvio=13
+cmag=5
