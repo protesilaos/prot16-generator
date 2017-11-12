@@ -17,3 +17,7 @@ Available templates:
 ```
 hyper  jekyll  urxvt  vim  xfce4-terminal  yaml
 ```
+
+## Version 0.1.1.20171112
+
+Remove templates for `hyper` and `jekyll` due to build errors.
