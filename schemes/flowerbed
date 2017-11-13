@@ -2,32 +2,32 @@
 # author: Protesilaos Stavrou (https://protesilaos.com/flowerbed)
 
 # Colour values
-dbg=233949 # Dark background
-dhl=334959 # Dark highlight
-dt2=738999 # Dark bg text secondary
-dt1=a3b9c9 # Dark bg text primary
-lbg=ecf3f2 # Light background
-lhl=dce3e2 # Light highlight
-lt2=8c9392 # Light bg text secondary
-lt1=5c6362 # Light bg text primary
-red=d86a87 # Red
-ora=d89a47 # Orange
-yel=cd9a8a # Yellow
-gre=5cbc7d # Green
-cya=1caba1 # Cyan
-blu=4aa7d2 # Blue
-vio=7988ca # Violet
-mag=bc74af # Magenta
+dbg=233949 # dark background
+dhl=334959 # dark highlight
+dt2=738999 # dark bg text secondary
+dt1=a3b9c9 # dark bg text primary
+lbg=ecf3f2 # light background
+lhl=dce3e2 # light highlight
+lt2=8c9392 # light bg text secondary
+lt1=5c6362 # light bg text primary
+red=d86a87 # red variant
+ora=d89a47 # orange variant
+yel=cd9a8a # yellow variant
+gre=5cbc7d # green variant
+cya=1caba1 # cyan variant
+blu=4aa7d2 # blue variant
+vio=7988ca # violet variant
+mag=bc74af # magenta variant
 
 # Visual order used for colour mapping
-p1=$cya # Cyan
-p2=$gre # Green
-p3=$mag # Magenta
-s1=$vio # Violet
-s2=$blu # Blue
-t1=$ora # Orange
-t2=$red # Red
-t3=$yel # Yellow
+p1=$cya # cyan
+p2=$gre # green
+p3=$mag # magenta
+s1=$vio # violet
+s2=$blu # blue
+t1=$ora # orange
+t2=$red # red
+t3=$yel # yellow
 
 # Terminal values follow this sequence
 # 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
@@ -44,8 +44,8 @@ ct2=1
 ct3=3
 
 # Terminal colour codes
-# Corresponding to the palette
-# Followed by termcol description
+# corresponding to the palette
+# followed by termcol description
 cdbg=0      # black
 cred=1      # red
 cgre=2      # green

@@ -14,24 +14,24 @@ lbg=fbfbfb # light background
 lhl=e9e9e9 # light highlight
 lt2=5b7d8b # light bg text secondary
 lt1=504839 # light bg text primary
-red=e52530 # red
-ora=c65304 # orange
-yel=897600 # yellow
-gre=058942 # green
-cya=108294 # cyan
-blu=1f7ac4 # blue
-vio=8764c4 # violet
-mag=b25599 # magenta
+red=e52530 # red variant
+ora=c65304 # orange variant
+yel=897600 # yellow variant
+gre=058942 # green variant
+cya=108294 # cyan variant
+blu=1f7ac4 # blue variant
+vio=8764c4 # violet variant
+mag=b25599 # magenta variant
 
 # Visual order used for colour mapping
-p1=$gre # Green
-p2=$blu # Blue
-p3=$cya # Cyan
-s1=$mag # Magenta
-s2=$vio # Violet
-t1=$yel # Yellow
-t2=$ora # Orange
-t3=$red # Red
+p1=$gre # green
+p2=$blu # blue
+p3=$cya # cyan
+s1=$mag # magenta
+s2=$vio # violet
+t1=$yel # yellow
+t2=$ora # orange
+t3=$red # red
 
 # Terminal values follow this sequence
 # 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
@@ -48,8 +48,8 @@ ct2=9
 ct3=1
 
 # Terminal colour codes
-# Corresponding to the palette
-# Followed by termcol description
+# corresponding to the palette
+# followed by termcol description
 cdbg=0      # black
 cred=1      # red
 cgre=2      # green

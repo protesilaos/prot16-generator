@@ -2,32 +2,32 @@
 # author: Protesilaos Stavrou (https://protesilaos.com/playa)
 
 # Colour values
-dbg=234154 # Dark background
-dhl=335f64 # Dark highlight
-dt2=868265 # Dark bg text secondary
-dt1=93b9b4 # Dark bg text primary
-lbg=faf1e0 # Light background
-lhl=eae1d0 # Light highlight
-lt2=7c949d # Light bg text secondary
-lt1=5a7160 # Light bg text primary
-red=ca6e6a # Red
-ora=cb8d6a # Orange
-yel=ccb45d # Yellow
-gre=7db97a # Green
-cya=4dc4b7 # Cyan
-blu=65afcd # Blue
-vio=aa85cb # Violet
-mag=cb7e9a # Magenta
+dbg=234154 # dark background
+dhl=335f64 # dark highlight
+dt2=868265 # dark bg text secondary
+dt1=93b9b4 # dark bg text primary
+lbg=faf1e0 # light background
+lhl=eae1d0 # light highlight
+lt2=7c949d # light bg text secondary
+lt1=5a7160 # light bg text primary
+red=ca6e6a # red variant
+ora=cb8d6a # orange variant
+yel=ccb45d # yellow variant
+gre=7db97a # green variant
+cya=4dc4b7 # cyan variant
+blu=65afcd # blue variant
+vio=aa85cb # violet variant
+mag=cb7e9a # magenta variant
 
 # Visual order used for colour mapping
-p1=$blu # Blue
-p2=$gre # Green
-p3=$cya # Cyan
-s1=$ora # Orange
-s2=$yel # Yellow
-t1=$red # Red
-t2=$vio # Violet
-t3=$mag # Magenta
+p1=$blu # blue
+p2=$gre # green
+p3=$cya # cyan
+s1=$ora # orange
+s2=$yel # yellow
+t1=$red # red
+t2=$vio # violet
+t3=$mag # magenta
 
 # Terminal values follow this sequence
 # 0=dbg; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
@@ -44,8 +44,8 @@ ct2=13
 ct3=5
 
 # Terminal colour codes
-# Corresponding to the palette
-# Followed by termcol description
+# corresponding to the palette
+# followed by termcol description
 cdbg=0      # black
 cred=1      # red
 cgre=2      # green
