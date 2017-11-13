@@ -43,21 +43,22 @@ ct1=13
 ct2=4
 ct3=5
 
-# Terminal codes for colour values
-# This presupposes that the terminal sequence is followed
-cdbg=0
-cdhl=8
-cdt2=11
-cdt1=14
-clbg=15
-clhl=7
-clt2=12
-clt1=10
-cred=1
-cora=9
-cyel=3
-cgre=2
-ccya=6
-cblu=4
-cvio=13
-cmag=5
+# Terminal colour codes
+# Corresponding to the palette
+# Followed by termcol description
+cdbg=0      # black
+cred=1      # red
+cgre=2      # green
+cyel=3      # yellow
+cblu=4      # blue
+cmag=5      # magenta
+ccya=6      # cyan
+clhl=7      # white
+cdhl=8      # brblack
+cora=9      # brred
+clt1=10     # brgreen
+cdt2=11     # bryellow
+clt2=12     # brblue
+cvio=13     # brmagenta
+cdt1=14     # brcyan
+clbg=15     # brwhite
