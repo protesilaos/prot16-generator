@@ -107,24 +107,6 @@ mkdir -p ~/.local/share/xfce4/terminal/colorschemes/
 
 The theme will then be available from the terminal's preferences panel. Specifically, open the Xfce4 Terminal, navigate to `Preferences` > `Colours`. The themes should be available in the `Presets` section.
 
-### Hyper
-
-The template files are based on the default Hyper config file. The only differences relate to the colour values.
-
-If you are starting from a base setup, run the following command:
-
-```sh
-./prot16-generator gaia hyper dark > ~/.hyper.js
-```
-
-Otherwise you will need to manually copy-paste only the lines that reference the colour values. This can be done directly from the terminal output. Just run the above command without the `>` redirection, as follows:
-
-```sh
-./prot16-generator gaia hyper dark
-```
-
-**NOTE.** Hyper themes are normally distributed as `npm` packages. For the time being, I cannot provide that option.
-
 ### Vim
 
 The theme files can be copied manually or installed as a bundle with a plugin.
