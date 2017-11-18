@@ -8,12 +8,12 @@
 # Colour values
 dbg=07040a # dark background
 dhl=221a25 # dark highlight
-dt2=898460 # dark bg text secondary
-dt1=9eb0b5 # dark bg text primary
-lbg=fbfbfb # light background
-lhl=e9e9e9 # light highlight
-lt2=5b7d8b # light bg text secondary
-lt1=504839 # light bg text primary
+dt2=7e7662 # dark bg text secondary
+dt1=587d80 # dark bg text primary
+lbg=ffffff # light background
+lhl=e6e9ed # light highlight
+lt2=557b96 # light bg text secondary
+lt1=6c7a6d # light bg text primary
 red=e52530 # red variant
 ora=c65304 # orange variant
 yel=897600 # yellow variant

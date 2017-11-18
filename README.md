@@ -102,7 +102,7 @@ Choose whatever option suits your needs, modifying the following command accordi
 mkdir -p ~/.local/share/xfce4/terminal/colorschemes/
 
 # Generate the theme and place it in the created directory
-./prot16-generator gaia xfce4-terminal dark > ~/.local/share/xfce4/terminal/colorschems/gaia_dark.theme
+./prot16-generator gaia xfce4-terminal dark > ~/.local/share/xfce4/terminal/colorschemes/gaia_dark.theme
 ```
 
 The theme will then be available from the terminal's preferences panel. Specifically, open the Xfce4 Terminal, navigate to `Preferences` > `Colours`. The themes should be available in the `Presets` section.

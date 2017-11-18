@@ -1,6 +1,6 @@
 # Changelog for Prot16 Generator
 
-*Latest version is at the top. Versioning follows semver specs, with the date appended at the end in the form of YYMMDD.*
+*Latest version is at the top. Versioning follows semver specs, with the date appended in the form of YYMMDD.*
 
 ## Version 0.2.2.20171113
 
