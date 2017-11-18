@@ -93,7 +93,7 @@ Much like urxvt, xterm stores its configurations in `~/.Xresources`. Append the 
 The theme files can be located in either of two places:
 
 - At `/usr/share/xfce4/terminal/colorschemes/` which makes them accessible to all users (requires root privileges).
-- Or `.local/share/xfce4/terminal/colorschemes/` for use by the current user (directory path needs to be created if it does not already exist).
+- Or `~/.local/share/xfce4/terminal/colorschemes/` for use by the current user (directory path needs to be created if it does not already exist).
 
 Choose whatever option suits your needs, modifying the following command accordingly:
 
