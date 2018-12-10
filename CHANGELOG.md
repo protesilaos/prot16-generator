@@ -2,6 +2,11 @@
 
 *Latest version is at the top. Versioning follows semver specs, with the date appended in the form of YYMMDD.*
 
+## Version 0.3.0.20181210
+
+Refinements to the Vim template.  Highlight groups `Float` and `Label`
+do not have the same colour as ordinary text.
+
 ## Version 0.2.2.20171113
 
 Further refinements to schemes' documentation.

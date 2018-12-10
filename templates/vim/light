@@ -36,8 +36,8 @@ hi MatchParen guibg=#${cya} guifg=#${lbg} ctermbg=$ccya ctermfg=$clbg
 hi Constant guifg=#$p1 ctermfg=$cp1
 hi Number guifg=#$p3 ctermfg=$cp3
 hi Boolean guifg=#$t1 ctermfg=$ct1
-hi Float guifg=#${lt1} ctermfg=$clt1
-hi Label guifg=#${lt1} ctermfg=$clt1
+hi Float guifg=#$p3 ctermfg=$cp3
+hi Label guifg=#$p2 ctermfg=$cp2
 hi Tag guifg=#${lt1} ctermfg=$clt1
 hi StorageClass guifg=#${lt1} ctermfg=$clt1
 
