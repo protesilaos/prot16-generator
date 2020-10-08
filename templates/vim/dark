@@ -82,6 +82,7 @@ hi ColorColumn guibg=#${dt2} ctermbg=$cdt2
 
 hi Folded guibg=#${dhl} guifg=#${lbg} ctermbg=$cdhl ctermfg=$clbg
 hi FoldColumn guibg=#${dhl} guifg=#${lbg} ctermbg=$cdhl ctermfg=$clbg
+hi SignColumn guibg=#${dhl} guifg=#${lbg} ctermbg=$cdhl ctermfg=$clbg
 
 hi NonText guifg=#${dt2} ctermfg=$cdt2
 hi SpecialKey guifg=#${dt2} ctermfg=$cdt2
