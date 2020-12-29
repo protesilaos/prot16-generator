@@ -1,0 +1,34 @@
+/* Terminal colors (16 first used in escape sequence) */
+static const char *colorname[] = {
+	/* 8 normal colors */
+	"#${dbg}", /* 00 black     */
+	"#${red}", /* 01 red       */
+	"#${gre}", /* 02 green     */
+	"#${yel}", /* 03 yellow    */
+	"#${blu}", /* 04 blue 	   */
+	"#${mag}", /* 05 magenta   */
+	"#${cya}", /* 06 cyan      */
+	"#${lhl}", /* 07 white     */
+	/* 8 bright colors */
+	"#${dhl}", /* 08 brblack   */
+	"#${ora}", /* 09 brred     */
+	"#${lt1}", /* 10 brgreen   */
+	"#${dt2}", /* 11 bryellow  */
+	"#${lt2}", /* 12 brblue    */
+	"#${vio}", /* 13 brmagenta */
+	"#${dt1}", /* 14 brcyan    */
+	"#${lbg}", /* 15 brwhite   */
+
+	[255] = 0,
+
+	"#${dt1}",
+	"#${dbg}",
+};
+/*
+ * Default colors (colorname index)
+ * foreground, background, cursor, reverse cursor
+ */
+unsigned int defaultfg = 256;
+unsigned int defaultbg = 257;
+static unsigned int defaultcs = 256;
+static unsigned int defaultrcs = 257;
